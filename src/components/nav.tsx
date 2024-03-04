@@ -9,7 +9,7 @@ export default function Nav({ currentPath }: { currentPath?: string }) {
     >
       <div
         className={
-          "container flex h-24 w-screen items-center justify-between font-helvetica text-xl uppercase"
+          "container flex h-24 w-screen items-center justify-between font-helvetica text-base uppercase sm:text-xl"
         }
       >
         <Link href={"/"} className="">

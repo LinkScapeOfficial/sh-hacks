@@ -1,8 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
-import { cn } from "@/lib/utils";
 import Seperator from "@/components/home/seperator";
 import Image from "next/image";
-import hackclubLogo from "@/../public/logos/hackclub.svg";
 import linkscapeLogo from "@/../public/logos/linkscape.svg";
 import Link from "next/link";
 
@@ -16,7 +14,9 @@ export default function Sponsors() {
       <Seperator title={"Sponsors"} number={"02"} />
 
       <div
-        className={"flex h-full w-full flex-1 flex-col justify-center gap-12"}
+        className={
+          "flex h-full w-full flex-1 flex-col justify-center gap-6 sm:gap-12"
+        }
       >
         <Link
           href={"https://dubbingai.io/"}
@@ -24,12 +24,18 @@ export default function Sponsors() {
             "group flex flex-row items-center justify-between underline-offset-8 transition hover:underline"
           }
         >
-          <h3 className={"text-9xl font-bold uppercase leading-none"}>
+          <h3
+            className={
+              "text-4xl font-bold uppercase leading-none sm:text-7xl lg:text-9xl"
+            }
+          >
             Dubbing AI
           </h3>
           <div className={"flex flex-row items-center"}>
             <ArrowUpRight
-              className={"h-40 w-40 transition group-hover:rotate-45"}
+              className={
+                "h-14 w-14 flex-shrink-0 transition group-hover:rotate-45 sm:h-28 sm:w-28 lg:h-40 lg:w-40"
+              }
             />
             {/*<Image*/}
             {/*  src={hackclubLogo}*/}
@@ -44,11 +50,15 @@ export default function Sponsors() {
             "group flex flex-row items-center justify-between underline-offset-8 transition hover:underline"
           }
         >
-          <h3 className={"text-9xl font-bold uppercase leading-none"}>
+          <h3
+            className={
+              "text-4xl font-bold uppercase leading-none sm:text-7xl lg:text-9xl"
+            }
+          >
             LinkScape
           </h3>
           <div className={"flex flex-row items-center"}>
-            <div className={"overflow-hidden"}>
+            <div className={"hidden overflow-hidden sm:block"}>
               <Image
                 src={linkscapeLogo}
                 alt={"linkscape"}
@@ -59,7 +69,9 @@ export default function Sponsors() {
             </div>
 
             <ArrowUpRight
-              className={"h-40 w-40 transition group-hover:rotate-45"}
+              className={
+                "h-14 w-14 flex-shrink-0 transition group-hover:rotate-45 sm:h-28 sm:w-28 lg:h-40 lg:w-40"
+              }
             />
           </div>
         </Link>

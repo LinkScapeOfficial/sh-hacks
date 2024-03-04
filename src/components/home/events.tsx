@@ -26,7 +26,7 @@ export default function Events() {
       <div
         className={"flex h-full w-full flex-1 flex-col justify-center gap-12"}
       >
-        <div className={"flex flex-row gap-2"}>
+        <div className={"flex flex-col gap-2 sm:flex-row"}>
           <Badge
             className={
               "flex w-fit flex-row items-center gap-2 rounded-full border border-accent bg-background px-3  py-1.5 shadow-accent-200/50 hover:bg-accent-100"
@@ -59,7 +59,7 @@ export default function Events() {
 
         <h2
           className={
-            "bg-gradient-to-br from-indigo-500 to-cyan-500 bg-clip-text text-9xl font-bold uppercase leading-[0.9] text-transparent"
+            "bg-gradient-to-br from-indigo-500 to-cyan-500 bg-clip-text text-5xl font-bold uppercase leading-[0.9] tracking-tight text-transparent sm:text-7xl lg:text-9xl"
           }
         >
           SH HACKS
@@ -99,7 +99,7 @@ export default function Events() {
         {/*</p>*/}
         <Button
           className={
-            "group w-fit rounded-full bg-gradient-to-b from-zinc-700 to-zinc-900 py-10 pl-12 pr-10 text-3xl uppercase text-white shadow-md transition hover:shadow-xl"
+            "group w-fit self-center rounded-full bg-gradient-to-b from-zinc-700 to-zinc-900 py-8 pl-10 pr-8 text-xl uppercase text-white shadow-md transition hover:shadow-xl sm:self-auto sm:py-10 sm:pl-12 sm:pr-10 sm:text-3xl"
           }
           asChild
         >

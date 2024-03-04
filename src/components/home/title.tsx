@@ -30,7 +30,11 @@ export default function Title() {
         "relative flex h-full w-full flex-col items-center justify-center text-text"
       }
     >
-      <div className={"flex w-full flex-row items-center justify-between"}>
+      <div
+        className={
+          "flex w-full flex-row items-center justify-center md:justify-between"
+        }
+      >
         <Image
           src={cross}
           alt={"cross"}
@@ -44,7 +48,9 @@ export default function Title() {
         />
       </div>
       <div className={"absolute bottom-8 mt-auto w-full"}>
-        <ul className={"flex w-full flex-row justify-between text-lg"}>
+        <ul
+          className={"flex w-full flex-row justify-between text-sm sm:text-lg"}
+        >
           {homeLinks.map((link, index) => {
             return (
               <Link
@@ -66,22 +72,14 @@ const CenterTitle = () => {
   return (
     <div
       className={
-        "flex select-none flex-col text-[120px] uppercase leading-[0.8]"
+        "flex select-none flex-col font-helvetica text-5xl font-bold uppercase leading-[0.8] tracking-tight sm:text-8xl lg:text-[120px] "
       }
     >
-      <h2 className={"font-helvetica font-bold tracking-tight text-text-200"}>
-        SH Hacks
-      </h2>
-      <h2 className={"font-helvetica font-bold tracking-tight text-text-200"}>
-        SH Hacks
-      </h2>
-      <h1 className={"font-helvetica font-bold tracking-tight"}>SH Hacks</h1>
-      <h2 className={"font-helvetica font-bold tracking-tight text-text-200"}>
-        SH Hacks
-      </h2>
-      <h2 className={"font-helvetica font-bold tracking-tight text-text-200"}>
-        SH Hacks
-      </h2>
+      <h2 className={"text-text-200"}>SH Hacks</h2>
+      <h2 className={"text-text-200"}>SH Hacks</h2>
+      <h1 className={""}>SH Hacks</h1>
+      <h2 className={"text-text-200"}>SH Hacks</h2>
+      <h2 className={"text-text-200"}>SH Hacks</h2>
     </div>
   );
 };

@@ -17,25 +17,25 @@ export default function Home() {
         </section>
         <section
           id={"about-us"}
-          className={"flex min-h-screen w-full flex-col pt-24"}
+          className={"flex min-h-screen w-full flex-col pt-16 sm:pt-24"}
         >
           <AboutUs />
         </section>
         <section
           id={"organizers"}
-          className={"flex min-h-screen w-full flex-col pt-24"}
+          className={"flex min-h-screen w-full flex-col pt-16 sm:pt-24"}
         >
           <Organizers />
         </section>
         <section
           id={"sponsors"}
-          className={"flex min-h-screen w-full flex-col pt-24"}
+          className={"flex min-h-screen w-full flex-col pt-16 sm:pt-24"}
         >
           <Sponsors />
         </section>
         <section
           id={"events"}
-          className={"flex min-h-screen w-full flex-col pt-24"}
+          className={"flex min-h-screen w-full flex-col pt-16 sm:pt-24"}
         >
           <Events />
         </section>

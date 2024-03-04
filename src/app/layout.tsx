@@ -18,7 +18,7 @@ const helvetica = localFont({
     },
     {
       path: "../fonts/helveticaneueltpromdex-webfont.woff2",
-      weight: "500",
+      weight: "bold",
       style: "normal",
     },
   ],
