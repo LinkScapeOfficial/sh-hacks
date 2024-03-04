@@ -82,7 +82,9 @@ export default function Events() {
                 <ul className={"mt-2 flex flex-col gap-[2px] leading-none"}>
                   <li className={"flex flex-row items-center gap-1"}>
                     <CheckCircle2 className={"h-5 w-5 text-green-500"} />
-                    <span>be a high school student (双语/国际学校）</span>
+                    <span>
+                      be a middleschool / highschool student (双语/国际学校）
+                    </span>
                   </li>
                   <li className={"flex flex-row items-center gap-1"}>
                     <CheckCircle2 className={"h-5 w-5 text-green-500"} />
