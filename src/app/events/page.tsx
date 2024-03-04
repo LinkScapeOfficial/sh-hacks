@@ -131,7 +131,7 @@ export default function Events() {
             </Link>
             <Button
               className={
-                "group w-fit self-center rounded-full bg-gradient-to-b from-zinc-700 to-zinc-900 py-8 pl-10 pr-8 text-xl uppercase text-white shadow-md transition hover:shadow-xl sm:self-auto sm:py-10 sm:pl-12 sm:pr-10 sm:text-3xl"
+                "group w-full self-center rounded-full bg-gradient-to-b from-zinc-700 to-zinc-900 py-8 pl-10 pr-8 text-xl uppercase text-white shadow-md transition hover:shadow-xl sm:w-fit sm:self-auto sm:py-10 sm:pl-12 sm:pr-10 sm:text-3xl"
               }
               asChild
             >
