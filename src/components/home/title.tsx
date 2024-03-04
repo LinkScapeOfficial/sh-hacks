@@ -72,7 +72,7 @@ const CenterTitle = () => {
   return (
     <div
       className={
-        "flex select-none flex-col font-helvetica text-5xl font-bold uppercase leading-[0.8] tracking-tight sm:text-8xl lg:text-[120px] "
+        "flex select-none flex-col font-helvetica text-5xl font-bold uppercase !leading-[0.8] tracking-tight sm:text-8xl lg:text-[120px] "
       }
     >
       <h2 className={"text-text-200"}>SH Hacks</h2>
