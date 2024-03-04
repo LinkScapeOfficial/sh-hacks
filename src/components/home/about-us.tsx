@@ -21,7 +21,7 @@ export default function AboutUs() {
       </div>
       <div
         className={
-          "flex h-full flex-col items-center justify-between gap-10 py-16"
+          "flex h-full flex-col items-center justify-between gap-10 pt-16"
         }
       >
         <div className={"flex flex-col items-center"}>
@@ -34,13 +34,13 @@ export default function AboutUs() {
         </div>
         <div className={"px-12 text-center"}>
           <span className={"text-7xl font-bold tracking-tight"}>
-            We spark innovation by uniting tech enthusiasts to solve complex
-            problems in coding marathons.
+            A social coding marathon where teenagers come together to build
+            projects for a weekend and share them with the world.
           </span>
         </div>
         <div className={"mt-4"}>
           <span className={"uppercase"}>
-            A hackathon that helps you realize your potential.
+            A place to build things for fun and meet others doing the same.
           </span>
         </div>
       </div>

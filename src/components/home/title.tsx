@@ -1,7 +1,27 @@
 import cross from "../../../public/deco/cross.svg";
 import Image from "next/image";
+import Link from "next/link";
 
-const homeLinks = ["Hackathon", "Organizers", "Sponsors", "What we do"];
+// const homeLinks = ["Hackathon", "Organizers", "Sponsors", "Events"];
+
+const homeLinks = [
+  {
+    name: "Hackathon",
+    href: "#about-us",
+  },
+  {
+    name: "Organizers",
+    href: "#organizers",
+  },
+  {
+    name: "Sponsors",
+    href: "#sponsors",
+  },
+  {
+    name: "Events",
+    href: "#events",
+  },
+];
 
 export default function Title() {
   return (
@@ -27,9 +47,13 @@ export default function Title() {
         <ul className={"flex w-full flex-row justify-between text-lg"}>
           {homeLinks.map((link, index) => {
             return (
-              <li key={index} className={"cursor-pointer hover:underline"}>
-                {link}
-              </li>
+              <Link
+                href={link.href}
+                key={link.name}
+                className={"cursor-pointer hover:underline"}
+              >
+                {link.name}
+              </Link>
             );
           })}
         </ul>

@@ -74,3 +74,25 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Targeting webkit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 20px; /* Adjust the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0e0e; /* Dark mode track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444; /* Dark mode thumb color */
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+/* Firefox requires a different approach */
+* {
+  scrollbar-width: thin; /* 'auto' or 'thin' */
+  scrollbar-color: #444 var(--background); /* thumb and track color */
+}

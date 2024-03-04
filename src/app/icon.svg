@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="260px" height="328px" viewBox="0 0 260 328" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>a3c212565127bde07c193731c3a1e997-421e1</title>
+    <defs>
+        <radialGradient cx="49.9932158%" cy="49.9995724%" fx="49.9932158%" fy="49.9995724%" r="76.6283418%" gradientTransform="translate(0.4999, 0.5), scale(1, 0.6755), translate(-0.4999, -0.5)" id="radialGradient-1">
+            <stop stop-color="#4ABBBB" offset="0%"></stop>
+            <stop stop-color="#4BB7B9" offset="17.41%"></stop>
+            <stop stop-color="#4DAAB5" offset="35.79%"></stop>
+            <stop stop-color="#5095AD" offset="54.63%"></stop>
+            <stop stop-color="#5577A3" offset="73.78%"></stop>
+            <stop stop-color="#5B5296" offset="92.99%"></stop>
+            <stop stop-color="#5D4290" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="26.1519144%" cy="49.9978096%" fx="26.1519144%" fy="49.9978096%" r="81.3706034%" gradientTransform="translate(0.2615, 0.5), scale(1, 0.6887), translate(-0.2615, -0.5)" id="radialGradient-2">
+            <stop stop-color="#4ABBBB" offset="0%"></stop>
+            <stop stop-color="#4BB7B9" offset="17.41%"></stop>
+            <stop stop-color="#4DAAB5" offset="35.79%"></stop>
+            <stop stop-color="#5095AD" offset="54.63%"></stop>
+            <stop stop-color="#5577A3" offset="73.78%"></stop>
+            <stop stop-color="#5B5296" offset="92.99%"></stop>
+            <stop stop-color="#5D4290" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sponsors" transform="translate(-1606, -599)" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(65, 599)">
+                <g id="a3c212565127bde07c193731c3a1e997-421e1" transform="translate(1541, 0)">
+                    <g id="Group" fill="url(#radialGradient-1)">
+                        <path d="M50.0714086,265 L158.657286,172.647738 C182.789989,153.134781 187.034094,115.740614 162.788516,96.3636364 L44.0438766,0 L0,54.7541264 L95.3117616,132.556658 L5.50830645,209.362011 L50.0714086,265 Z" id="Path"></path>
+                    </g>
+                    <g id="Group" transform="translate(83, 71)" fill="url(#radialGradient-2)">
+                        <path d="M127.744348,0 L18.0611936,88.4731836 C-6.11433058,107.96037 -6.00125517,144.852488 18.2873444,164.203875 L134.777639,257 L177,206.211096 L81.5191177,128.511317 L171.48192,51.8073976 L127.744348,0 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
