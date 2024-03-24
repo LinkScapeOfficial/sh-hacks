@@ -4,7 +4,7 @@ import Nav from "@/components/nav";
 import AboutUs from "@/components/home/about-us";
 import Organizers from "@/components/home/organizers";
 import Sponsors from "@/components/home/sponsors";
-import Events from "@/components/home/events";
+import Events from "@/app/events/page";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -35,12 +35,11 @@ export default function Home() {
         </section>
         <section
           id={"events"}
-          className={"flex min-h-screen w-full flex-col pt-16 sm:pt-24"}
+          className={"-mt-72 flex min-h-screen w-full flex-col pt-16 sm:pt-24"}
         >
           <Events />
         </section>
       </main>
-      <Footer />
     </>
   );
 }

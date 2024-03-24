@@ -1,4 +1,5 @@
 import Image from "next/image";
+// @ts-ignore
 import featureImg from "../../../public/feature.jpg";
 
 export default function AboutUs() {
