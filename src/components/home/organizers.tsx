@@ -6,7 +6,7 @@ const organizers = [
   {
     name: "Thomas Wu",
     role: "Founder & CEO",
-    image: "thomas-wu.jpg",
+    image: "https://via.placeholder.com/800x1000",
   },
   {
     name: "Jett Chen",
@@ -14,13 +14,13 @@ const organizers = [
     image: "https://via.placeholder.com/800x1000",
   },
   {
-    name: "Ryan Zhang",
+    name: "Zigao Wang",
     role: "Co-Founder",
     image: "https://via.placeholder.com/800x1000",
   },
   {
-    name: "Kai Xu",
-    role: "Assistant Organizer",
+    name: "Lily Ding",
+    role: "Co-Founder",
     image: "https://via.placeholder.com/800x1000",
   },
 ];

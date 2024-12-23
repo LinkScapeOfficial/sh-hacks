@@ -1,11 +1,9 @@
-import Image from "next/image";
 import Title from "@/components/home/title";
 import Nav from "@/components/nav";
 import AboutUs from "@/components/home/about-us";
 import Organizers from "@/components/home/organizers";
-import Sponsors from "@/components/home/sponsors";
+import Partners from "@/components/home/partners";
 import Events from "@/app/events/page";
-import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -31,7 +29,7 @@ export default function Home() {
           id={"sponsors"}
           className={"flex min-h-screen w-full flex-col pt-16 sm:pt-24"}
         >
-          <Sponsors />
+          <Partners />
         </section>
         <section
           id={"events"}

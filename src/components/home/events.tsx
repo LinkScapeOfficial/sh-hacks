@@ -66,37 +66,6 @@ export default function Events() {
           <br />
           2024
         </h2>
-        {/*<p className={"text-text-600"}>*/}
-        {/*  <div>*/}
-        {/*    To join SH Hacks 2024, you must*/}
-        {/*    <ul className={"mt-2 flex flex-col gap-[2px] leading-none"}>*/}
-        {/*      <li className={"flex flex-row items-center gap-1"}>*/}
-        {/*        <CheckCircle2 className={"h-5 w-5 text-green-500"} />*/}
-        {/*        <span>be a high school student (双语/国际学校）</span>*/}
-        {/*      </li>*/}
-        {/*      <li className={"flex flex-row items-center gap-1"}>*/}
-        {/*        <CheckCircle2 className={"h-5 w-5 text-green-500"} />*/}
-        {/*        <span>reside in Shanghai</span>*/}
-        {/*      </li>*/}
-        {/*    </ul>*/}
-        {/*  </div>*/}
-        {/*  <div className={"mt-2"}>*/}
-        {/*    Our specific timetable is:*/}
-        {/*    <ul className={"mt-2 flex flex-col gap-[2px] leading-none"}>*/}
-        {/*      <li className={"flex flex-row items-center gap-1"}>*/}
-        {/*        <Clock className={"h-5 w-5"} />*/}
-        {/*        <span>Day 1 (4/13): 09:00 - 20:00</span>*/}
-        {/*      </li>*/}
-        {/*      <li className={"flex flex-row items-center gap-1"}>*/}
-        {/*        <Clock className={"h-5 w-5"} />*/}
-        {/*        <span>Day 2 (4/14): 09:00 - 15:30</span>*/}
-        {/*      </li>*/}
-        {/*    </ul>*/}
-        {/*  </div>*/}
-        {/*  <div className={"mt-2"}>*/}
-        {/*    The registration fee will be 300 RMB per person.*/}
-        {/*  </div>*/}
-        {/*</p>*/}
         <Button
           className={
             "group w-full self-center rounded-full bg-gradient-to-b from-zinc-700 to-zinc-900 py-8 pl-10 pr-8 text-xl uppercase text-white shadow-md transition hover:shadow-xl sm:w-fit sm:self-auto sm:py-10 sm:pl-12 sm:pr-10 sm:text-3xl"
