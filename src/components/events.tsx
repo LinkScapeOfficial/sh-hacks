@@ -32,7 +32,7 @@ export default function Event() {
                   "bg-gradient-to-br from-indigo-600 to-cyan-600 bg-clip-text text-transparent"
                 }
               >
-                2024/04/13 - 2024/04/14
+                2025/03/29 - 2025/03/30
               </span>
             </Badge>
             <Badge
@@ -46,7 +46,7 @@ export default function Event() {
                   "bg-gradient-to-br from-amber-500 to-yellow-500 bg-clip-text text-transparent"
                 }
               >
-                上海市浦东新区碧波路690号
+                上海市徐汇区桂果路607号漕河泾开发区公园
               </span>
             </Badge>
           </div>
@@ -58,7 +58,7 @@ export default function Event() {
           >
             SH HACKS
             <br />
-            2024
+            2025
           </h2>
           <div
             className={
@@ -70,7 +70,7 @@ export default function Event() {
                 Requirements
               </h2>
               <p className={"mt-2 text-text-600"}>
-                To join SH Hacks 2024, you must
+                To join SH Hacks 2025, you must
               </p>
               <ul className={"mt-2 flex flex-col gap-[2px] leading-none"}>
                 <li className={"flex flex-row items-center gap-1"}>
@@ -87,15 +87,15 @@ export default function Event() {
               <h2 className={"text-xl font-bold text-text-800 sm:text-2xl"}>
                 Timetable
               </h2>
-              <p className={"mt-2 text-text-600"}>Our specific timetable is:</p>
+              <p className={"mt-2 text-text-600"}>Timetable:</p>
               <ul className={"mt-2 flex flex-col gap-[2px] leading-none"}>
                 <li className={"flex flex-row items-center gap-1"}>
                   <Clock className={"h-5 w-5"} />
-                  <span>Day 1 (4/13): 09:00 - 20:00</span>
+                  <span>Day 1 (3/29): 09:00 - 20:00</span>
                 </li>
                 <li className={"flex flex-row items-center gap-1"}>
                   <Clock className={"h-5 w-5"} />
-                  <span>Day 2 (4/14): 09:00 - 15:30</span>
+                  <span>Day 2 (3/30): 09:00 - 15:30</span>
                 </li>
               </ul>
             </div>
@@ -112,7 +112,7 @@ export default function Event() {
             className={
               "group flex flex-row text-xl font-bold text-text-600 underline transition sm:text-2xl"
             }
-            href={"/files/SH-Hacks-2024-Proposal-(Bilingual).pdf"}
+            href={"/files/SH-Hacks-2025-Proposal-(Bilingual).pdf"}
           >
             <span>Read detailed proposal</span>
             <ChevronRight
@@ -126,7 +126,7 @@ export default function Event() {
             }
             asChild
           >
-            <Link href={"https://forms.microsoft.com/r/e0tZrnqCzf"}>
+            <Link href={"https://forms.microsoft.com/r/X3pnAV2k4P"}>
               <span>Register</span>
               <ArrowRight
                 className={
