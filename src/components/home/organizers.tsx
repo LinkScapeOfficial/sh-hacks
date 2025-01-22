@@ -5,23 +5,23 @@ import Seperator from "@/components/home/seperator";
 const organizers = [
   {
     name: "Thomas Wu",
-    role: "Founder & CEO",
-    image: "https://via.placeholder.com/800x1000",
+    role: "Founder",
+    image: "https://avatars.githubusercontent.com/u/62056970",
   },
   {
     name: "Jett Chen",
     role: "Co-Founder",
-    image: "https://via.placeholder.com/800x1000",
+    image: "https://cdn.linkscape.app/JettChen.png",
   },
   {
     name: "Zigao Wang",
     role: "Co-Founder",
-    image: "https://via.placeholder.com/800x1000",
+    image: "https://avatars.githubusercontent.com/u/102006756",
   },
   {
     name: "Lily Ding",
     role: "Co-Founder",
-    image: "https://via.placeholder.com/800x1000",
+    image: "https://avatars.githubusercontent.com/u/188736174",
   },
 ];
 
