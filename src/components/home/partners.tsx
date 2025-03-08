@@ -3,7 +3,6 @@ import Seperator from "@/components/home/seperator";
 import Image from "next/image";
 import LinkScapeLogo from "@/../public/logos/linkscape.svg";
 import SparkLabLogo from "@/../public/logos/sparklab.svg";
-import HackClubLogo from "@/../public/logos/hackclub.svg";
 import Link from "next/link";
 
 export default function Partners() {
@@ -59,7 +58,7 @@ export default function Partners() {
         }
       >
         <Link
-          href={"https://hackclub.com/"}
+          href={"https://github.com/AdventureX-RGE"}
           className={
             "group flex flex-row items-center justify-between underline-offset-8 transition hover:underline"
           }
@@ -69,13 +68,13 @@ export default function Partners() {
               "text-4xl font-bold uppercase leading-none sm:text-7xl lg:text-9xl"
             }
           >
-            Hack Club
+            AdventureX
           </h3>
           <div className={"flex flex-row items-center"}>
             <div className={"hidden overflow-hidden sm:block"}>
               <Image
-                src={HackClubLogo}
-                alt={"Hack Club"}
+                src="https://avatars.githubusercontent.com/u/153430832"
+                alt={"AdventureX"}
                 className={
                   "h-28 w-28 translate-x-full opacity-0 transition-all group-hover:w-28 group-hover:translate-x-0 group-hover:opacity-100"
                 }
